@@ -3,8 +3,11 @@
 go mod init github.com/vrindavanstudio/haldiayatra
 go get go.mongodb.org/mongo-driver/mongo
 go get -u github.com/cosmtrek/air
+go get github.com/dgrijalva/jwt-go
 
-
+Resources:
+Mongodb Atlas 
+login vrindavan.studio1@gmail.com
 
 References:
 https://docs.mongodb.com/drivers/go               -->mongodb drivers refers to mongodb connection and usage
@@ -28,4 +31,6 @@ nameserver 8.8.8.8
 
 it worked but it may have some persistence issue afer reboot may be overwritten refer this soln
 https://stackoverflow.com/questions/55660134/cant-connect-to-mongo-cloud-mongodb-database-in-golang-on-ubuntu
+
+https://www.tecmint.com/set-permanent-dns-nameservers-in-ubuntu-debian/  --> Permanently add nameserver 8.8.8.8 in resolv.conf 
 
